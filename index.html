@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0e1728">
+  <meta name="description" content="Workiva Field Guide — pembelajaran Wdata, Chains, Data Prep, audit analytics, dan financial reporting berbasis dokumentasi resmi.">
+  <title>Workiva Field Guide — Data, Audit & Financial Reporting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="theme.js"></script><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="theme.css?v=20261104-deep3">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="Workiva Field Guide - Beranda">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>WORKIVA<span class="brand-dot">.</span></strong><small>FIELD GUIDE <span class="brand-v">/ 2026</span></small></span>
+      </a>
+      <div class="sidebar-lens"><span class="lens-status"></span> INDEPENDENT LEARNING HUB</div>
+      <div class="nav-group-label">MULAI DI SINI</div>
+      <nav class="side-nav" id="side-nav" aria-label="Navigasi pembelajaran"></nav>
+      <div class="sidebar-bottom">
+        <div class="learning-meter"><div class="meter-top"><span>Learning progress</span><strong id="side-progress">0%</strong></div><div class="meter-rail"><div id="side-progress-fill"></div></div><small>Checklist tersimpan di browser ini.</small></div>
+        <div class="side-note"><span class="side-note-icon">↗</span><div><b>Independent resource</b><p>Bukan situs resmi Workiva atau PwC.</p></div></div>
+      </div>
+    </aside>
+    <div class="main-area">
+      <header class="topbar">
+        <div class="top-left"><button class="menu-btn" id="menu-btn" aria-label="Buka menu"><span>☰</span></button><span id="breadcrumb">OVERVIEW</span><span class="breadcrumb-divider">/</span><span class="crumb-detail" id="breadcrumb-detail">Learning dashboard</span></div>
+        <div class="top-actions"><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Aktifkan mode gelap" aria-pressed="false" title="Aktifkan mode gelap"><span data-theme-icon aria-hidden="true">☾</span></button><button class="search-trigger" id="search-trigger"><span class="search-lens">⌕</span><span>Temukan topik, istilah, atau tutorial...</span><kbd>⌘ K</kbd></button><span class="top-live"><span></span> Public research</span></div>
+      </header>
+      <main id="app" tabindex="-1"></main>
+      <footer class="site-footer"><span>Workiva Field Guide · Research snapshot: 4 Nov 2026</span><span>Independent education · Synthetic datasets only</span></footer>
+    </div>
+  </div>
+  <div class="mobile-scrim" id="mobile-scrim"></div>
+  <div class="dialog-backdrop" id="search-backdrop" aria-hidden="true"><div class="search-dialog" role="dialog" aria-label="Cari konten" aria-modal="true"><div class="search-head"><span>⌕</span><input id="search-input" placeholder="Cari Wdata, Chains, TB, audit..." autocomplete="off"><button id="search-close" aria-label="Tutup pencarian">ESC</button></div><div id="search-results" class="search-results"></div><div class="search-hint">Pilih hasil untuk membuka bab terkait · Tekan ESC untuk keluar</div></div></div>
+  <div class="dialog-backdrop image-backdrop" id="image-backdrop" aria-hidden="true"><div class="image-dialog" role="dialog" aria-label="Screenshot Workiva"><button class="image-close" id="image-close" aria-label="Tutup">✕</button><div id="image-dialog-content"></div></div></div>
+  <script src="deep-dives.js?v=20261104-deep3" defer></script><script src="app.js?v=20261104-deep3" defer></script>
+</body>
+</html>
